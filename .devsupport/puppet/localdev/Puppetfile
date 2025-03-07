@@ -1,0 +1,3 @@
+mod 'apache',
+  :git => 'https://github.com/puppetlabs/puppetlabs-apache',
+  :ref => 'v7.0.0'

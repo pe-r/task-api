@@ -1,0 +1,10 @@
+---
+version: 5
+
+defaults:  
+  datadir: "/vagrant/.devsupport/puppet/"
+  data_hash: yaml_data
+
+hierarchy:
+  - name: "Project Data"
+    path: "project-data.yaml"

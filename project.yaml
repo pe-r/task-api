@@ -1,0 +1,10 @@
+---
+project:
+  type: 'laravel'
+  name: 'paradise'
+  services: ['mailhog']
+  php_version: '8.3'
+  php_modules: ['bcmath', 'curl', 'gd', 'imagick', 'mbstring', 'xml', 'mysql', 'tokenizer', 'zip']
+  php_memory_limit: '32M'
+  php_upload_limit: '10M'
+  php_execution_limit: 30
